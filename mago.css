@@ -1,0 +1,116 @@
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+    header {
+        background: #5a518a;
+        color: #fff;
+        padding: 0;
+      }
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 30px;
+        height: 80px;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    nav{
+
+        padding: 20px;
+        background-color:  rgba(85, 80, 134, 1);
+        font-family: 'Khand', sans-serif;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+      
+      
+      nav {
+        display: flex;
+        gap: 40px;
+      }
+      
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+        position: relative;
+      }
+      
+      nav a::after {
+        content: "▼";
+        font-size: 0.7em;
+        margin-left: 5px;
+        opacity: 0.5;
+      }
+  
+  main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4b3f69;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .content p {
+    margin-bottom: 1.2rem;
+    text-align: justify;
+    line-height: 1.6;
+  }
+  
+  .content img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4b3f69;
+    font-size: 1rem;
+    margin: 2rem 0 1rem;
+    text-transform: uppercase;
+  }
+  
+  .denuncia {
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
