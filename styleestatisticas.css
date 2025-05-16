@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #333;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    background-color: #5a518a;
+    padding: 20px;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin-left: 20px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 200px;
+    display: block;
+}
+
+.intro {
+    text-align: center;
+    padding: 0 20px;
+}
+
+.intro h1 {
+    color: #5a518a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #5a518a;
+    max-width: 700px;
+    margin: 0 auto 60px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.estatisticas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.bloco {
+    width: 80%;
+    max-width: 800px;
+    padding: 25px 30px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+
+.roxo-escuro {
+    background-color: #5a518a;
+    margin-left: 800px;
+}
+
+.roxo-medio {
+    background-color: #7664d4;
+    margin-right: 800px;
+}
+
+.roxo-claro {
+    background-color: #c3baf4;
+    color: #ffffff;
+    margin-left: 800px;
+}
+
+.roxo-escurodois {
+    background-color: #5a518a;
+    color: #fff;
+    margin-right: 800px;
+}
+
+a {
+    justify-content: center;
+    margin-right: 170px;
+}
