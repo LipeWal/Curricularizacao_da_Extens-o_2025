@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre | ACAPRA</title>
+  <link rel="stylesheet" href="lipe.css" />
+  <style>
+    .container-sobre {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 50px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .logo-e-cards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      max-width: 400px;
+      gap: 30px;
+    }
+
+    .logo-e-cards img.logo {
+      width: 80px;
+      margin-bottom: 10px;
+    }
+
+    .cards-animais {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      width: 100%;
+    }
+
+    .card-gato {
+      background-color: #e9e6f0;
+      border-radius: 10px;
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-gato img {
+        padding: 30%;
+      width: 100%;
+      max-width: 500px;
+      border-radius: 8px;
+      object-fit: cover;
+      height: 400px;
+    }
+
+    .nome-gato {
+      margin-top: 10px;
+      margin-bottom: 8px;
+      color: #5a3f8c;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .btn-adotar {
+      background-color: #5a3f8c;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      font-size: 13px;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .btn-adotar:hover {
+      background-color: white;
+      color: #5a3f8c;
+      border: 1px solid #5a3f8c;
+    }
+
+    .texto-historia {
+      max-width: 600px;
+      text-align: justify;
+      color: #333;
+    }
+
+    .texto-historia h2 {
+      color: #5a3f8c;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .texto-historia p {
+      margin-bottom: 16px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a>ACAPRA</a>
+      <a href="Sobre.html">Sobre</a>
+      <a href="Noticias.html">Notícias</a>
+      <a href="Contato.html">Contato</a>
+      <a href="Adocao.html">Adoção</a>
+    </nav>
+  </header>
+
+  <main class="container-sobre">
+    <div class="logo-e-cards">
+      <img src="imagens/logo.png" alt="Logo ACAPRA" class="logo" />
+
+      <div class="cards-animais">
+        <div class="card-gato">
+          <img src="imagens/gato1.jpg" alt="Bartô" />
+          <h3 class="nome-gato">Bartô</h3>
+          <button class="btn-adotar">Adotar agora</button>
+        </div>
+
+        <div class="card-gato">
+          <img src="imagens/gato2.jpg" alt="Luzia" />
+          <h3 class="nome-gato">Luzia</h3>
+          <button class="btn-adotar">Adotar agora</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="texto-historia">
+      <h2>História</h2>
+      <p>
+        A Associação Catarinense de Proteção aos Animais – ACAPRA é uma organização não-governamental e sem fins lucrativos, fundada em 2000. Esta filial foi fundada em média por 13 voluntários, hoje em dia conta em cerca de 15 voluntários, esse número sobe e desce dependendo do período do ano.
+      </p>
+      <p>
+        Ao longo dos anos, a ACAPRA enfrentou desafios significativos, incluindo períodos de paralisação devido a dívidas acumuladas. Em 2020, por exemplo, a associação lançou a campanha "Por que nós existimos?" para arrecadar fundos e sensibilizar a comunidade sobre a importância de seu trabalho.
+      </p>
+      <p>
+        Já em agosto de 2024, as dívidas ultrapassaram R$ 100 mil, levando à paralisação temporária das atividades da ONG. Atualmente a dívida ultrapassa 80 mil.
+      </p>
+      <p>
+        Em 2023, durante a chamada "temporada de abandono", a ACAPRA resgatou aproximadamente 40 animais em pouco mais de dois meses, destacando a contínua necessidade de lares temporários e apoio da comunidade para manter suas atividades.
+      </p>
+      <p>
+        Em 2024 a ACAPRA também foi parceira da 1ª Cãominhada do Núcleo de Médicos Veterinários da Associação Empresarial de Brusque, Guabiruba e Botuverá (ACIBr) reuniu 180 tutores e seus pets no domingo, 27 de outubro, em Brusque.
+      </p>
+      <p>
+        Já em relação à missão da entidade, ela tem como missão resgatar, reabilitar e promover a adoção de animais abandonados ou vítimas de maus-tratos, além de conscientizar a comunidade sobre a importância da posse responsável e do respeito aos animais.
+      </p>
+      <p>
+        A ONG também tem tido muita ação nas suas redes sociais, o Instagram está sendo a forma mais fácil e acessível para se contatar com a instituição, além de que no Instagram, a ACAPRA usa essa plataforma para divulgar seu trabalho, compartilhar histórias de resgates e promover campanhas de arrecadação e adoção.
+      </p>
+    </div>
+  </main>
+</body>
+</html>
